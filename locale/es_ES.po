@@ -1,0 +1,135 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier.route,cost_price:"
+msgid "Cost Price"
+msgstr "Precio de coste"
+
+msgctxt "field:carrier.route,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:carrier.route,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:carrier.route,from_city:"
+msgid "From City"
+msgstr "Desde ciudad"
+
+msgctxt "field:carrier.route,from_country:"
+msgid "From Country"
+msgstr "Desde país"
+
+msgctxt "field:carrier.route,from_subdivision:"
+msgid "From Subdivision"
+msgstr "Desde subdivisión"
+
+msgctxt "field:carrier.route,from_zip:"
+msgid "From Zip"
+msgstr "Desde código postal"
+
+msgctxt "field:carrier.route,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.route,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:carrier.route,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:carrier.route,to_city:"
+msgid "To City"
+msgstr "A ciudad"
+
+msgctxt "field:carrier.route,to_country:"
+msgid "To Country"
+msgstr "A país"
+
+msgctxt "field:carrier.route,to_subdivision:"
+msgid "To Subdivision"
+msgstr "A subdivisión"
+
+msgctxt "field:carrier.route,to_zip:"
+msgid "To Zip"
+msgstr "A código postal"
+
+msgctxt "field:carrier.route,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:carrier.route,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:carrier.route_history,carrier_route:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:carrier.route_history,cost_price:"
+msgid "Cost Price"
+msgstr "Precio de coste"
+
+msgctxt "field:carrier.route_history,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:carrier.route_history,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:carrier.route_history,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:carrier.route_history,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.route_history,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:carrier.route_history,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:carrier.route_history,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:carrier.route,name:"
+msgid "Carrier Route"
+msgstr "Ruta de transportista"
+
+msgctxt "model:carrier.route_history,name:"
+msgid "History of Carrier Route"
+msgstr "Historial de ruta de transportista"
+
+msgctxt "model:ir.action,name:act_carrier_route"
+msgid "Carrier Routes"
+msgstr "Rutas de transportista"
+
+msgctxt "model:ir.action,name:act_carrier_route_history_form"
+msgid "Carrier Route History"
+msgstr "Historial de ruta de transportista"
+
+msgctxt "model:ir.action,name:wizard_carrier_route_history_open"
+msgid "History"
+msgstr "Historial"
+
+msgctxt "model:ir.ui.menu,name:menu_carrier_route"
+msgid "Carrier Routes"
+msgstr "Rutas de transportista"
+
+msgctxt "view:carrier.route:"
+msgid "Carrier Route"
+msgstr "Ruta de transportista"
+
+msgctxt "view:carrier.route_history:"
+msgid "Carrier Route History"
+msgstr "Historial de ruta de transportista"

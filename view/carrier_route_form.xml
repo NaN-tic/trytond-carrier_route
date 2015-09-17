@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of the carrier_route module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form string="Carrier Route" col="8">
+    <label name="party"/>
+    <field name="party" colspan="3"/>
+    <label name="cost_price"/>
+    <field name="cost_price" colspan="3"/>
+    <newline/>
+    <label name="from_city"/>
+    <field name="from_city"/>
+    <label name="from_zip"/>
+    <field name="from_zip"/>
+    <label name="from_subdivision"/>
+    <field name="from_subdivision"/>
+    <label name="from_country"/>
+    <field name="from_country"/>
+    <label name="to_city"/>
+    <field name="to_city"/>
+    <label name="to_zip"/>
+    <field name="to_zip"/>
+    <label name="to_subdivision"/>
+    <field name="to_subdivision"/>
+    <label name="to_country"/>
+    <field name="to_country"/>
+</form>
+
