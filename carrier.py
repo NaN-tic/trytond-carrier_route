@@ -1,21 +1,19 @@
 # This file is part of the carrier_route module for Tryton.
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
-from trytond.config import config
 from trytond.model import ModelView, ModelSQL, fields
 from trytond.pool import Pool
 from trytond.pyson import PYSONEncoder, Eval
 from trytond.wizard import Wizard, StateAction
-
+from trytond.transaction import Transaction
+from trytond.config import config as config_
 from sql import Column
 from sql.aggregate import Max
 from sql.conditionals import Coalesce
 from sql.functions import Trim, Substring
-from trytond.transaction import Transaction
-
 
 __all__ = ['CarrierRoute', 'CarrierRouteHistory', 'OpenCarrierRouteHistory']
-DIGITS = int(config.get('digits', 'unit_price_digits', 4))
+DIGITS = config_.getint('product', 'price_decimal', default=4)
 
 
 class CarrierRoute(ModelSQL, ModelView):
