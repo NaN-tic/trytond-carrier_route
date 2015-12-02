@@ -28,14 +28,14 @@ class CarrierRoute(ModelSQL, ModelView):
     from_subdivision = fields.Many2One('country.subdivision',
         'From Subdivision', domain=[
             ('country', '=', Eval('from_country')),
-            ])
+            ], depends=['from_country'])
     to_zip = fields.Char('To Zip')
     to_city = fields.Char('To City')
     to_country = fields.Many2One('country.country', 'To Country')
     to_subdivision = fields.Many2One('country.subdivision',
         'To Subdivision', domain=[
             ('country', '=', Eval('to_country')),
-            ])
+            ], depends=['to_country'])
 
     def get_rec_name(self, name):
         rec_name = 'From %s to %s by %s' % (
